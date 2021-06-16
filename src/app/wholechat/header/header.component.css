@@ -1,0 +1,9 @@
+.headerbuttons{
+        display: flex;
+}
+button{
+        border-radius: 50%;
+        font-size: 10px;
+    width: 56px;
+    height: 47px;
+}

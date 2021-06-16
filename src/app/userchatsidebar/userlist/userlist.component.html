@@ -1,0 +1,11 @@
+<div class="container">
+    <div (click)="chattitle([item.title , item.id])" class="row" style="border: 1px solid;padding-bottom: 10px;padding-top: 10px;" *ngFor="let item of allApiData.slice(0, 10);">
+        
+
+        <div class="col-md-3"><img style="width: 62px;
+    border-radius: 50%;" src="{{item.url}}" /></div>
+        <div class="col-md-6">{{item.title}}</div>
+        <div class="col-md-3">{{item.id}}</div>
+    </div>
+
+</div>

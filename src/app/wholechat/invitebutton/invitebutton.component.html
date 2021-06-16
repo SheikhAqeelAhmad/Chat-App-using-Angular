@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div style="width: 100%; height: 12px; border-bottom: 1px solid black; text-align: center;margin-top:10rem">
+            <span style=" background-color: #F3F5F6; padding: 0 10px;">
+            
+            {{myDate | date: 'fullDate' }}
+                <!--Padding is optional-->
+            </span>
+        </div>
+        <div class="wrapper">
+        
+            <button id="btnmy" class="btn btn-primary">Invite More People</button>
+        </div><br>
+        <div style="    margin-top: 40px;">
+            <p style="margin-top: 15%;" *ngFor="let d of hero">
+               <span style="font-weight: bold;">You:</span>  {{d}} <span style="margin-left: 130px;font-size: 10px;">[{{myDate | date: 'h:mm:ss' }}]</span>
+            </p><br>
+
+        </div>
+            
+    </div>
+</div>

@@ -1,0 +1,16 @@
+#footer {
+  position: fixed;
+  bottom: 16px;
+}
+
+
+
+button{
+  position:absolute;
+  bottom:16px;
+     margin-left: 73%;
+}
+
+textarea{
+  display:block;
+}
